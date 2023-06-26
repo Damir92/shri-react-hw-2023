@@ -5,6 +5,7 @@ import { FilmType } from '@/types/film.type'
 import { GenreDict } from '@/dictionary/genre.dictionary'
 
 import styles from './styles/film-full.module.scss'
+import { Counter } from './Counter'
 
 export const FilmFull: FunctionComponent<{ data: FilmType }> = ({ data }) => {
     const {
@@ -51,7 +52,7 @@ export const FilmFull: FunctionComponent<{ data: FilmType }> = ({ data }) => {
                     <div className={styles['description-text']}>{description}</div>
                 </div>
             </div>
-            <div className={styles.counter}></div>
+            <Counter id={id} />
         </div >
     )
 }

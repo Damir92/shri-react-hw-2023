@@ -1,6 +1,7 @@
 .film {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 
   column-gap: 24px;
 }
@@ -34,4 +35,21 @@
 
 .counter {
   margin-left: auto;
+}
+
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: red;
+  }
 }
