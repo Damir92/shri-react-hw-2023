@@ -1,0 +1,26 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  h2 {
+    margin: 0;
+
+    cursor: pointer;
+
+    user-select: none;
+  }
+
+  img {
+    transition: transform 0.2s ease-in-out;
+  }
+}
+
+.answer {
+  padding-top: 16px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}

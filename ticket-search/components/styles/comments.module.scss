@@ -1,0 +1,42 @@
+.comment {
+  display: grid;
+
+  column-gap: 24px;
+
+  grid-template-columns: 100px 1fr;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100;
+  height: 100px;
+  padding: 10px;
+
+  background-color: rgba(224, 224, 224, 1);
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.name {
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.rating {
+  font-size: 20px;
+  line-height: 32px;
+
+  span {
+    font-weight: 600;
+  }
+}

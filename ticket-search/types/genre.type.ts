@@ -1,0 +1,1 @@
+export type GenreType = 'action' | 'comedy' | 'fantasy' | 'horror'
